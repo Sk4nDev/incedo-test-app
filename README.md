@@ -35,6 +35,16 @@ $ npm build:run
 $ npm lint
 ```
 
+## How to use
+Endpoint :
+```bash
+/artist/search?name=${searchText}
+```
+Example : 
+```bash
+localhost:3000/artist/search?name=Allison
+```
+
 ## Special Directories
 
 ### `static`
